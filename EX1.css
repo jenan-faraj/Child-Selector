@@ -1,0 +1,139 @@
+/* -----EX1  */
+.EX1 span{
+    margin: -15px;
+    display: inline-block;
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    border: 2px black solid;
+}
+.EX1 span:nth-child(even){
+    background-color: green;
+}
+.EX1 span:nth-child(odd){
+    margin: 15px;
+}                              
+
+/* -----EX2  */
+.EX2 span{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    color: aliceblue;
+    border: 2px black solid;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.EX2 span:nth-child(odd){
+    display: none;
+}
+
+/* -----EX3  */
+
+.EX3 span{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    content: "Hello";
+    margin: 10px;
+}
+.EX3 nav span:nth-child(6n + 1),
+.EX3 nav span:nth-child(6n + 2),
+.EX3 nav span:nth-child(6n + 3) {
+    background-color: green;
+}
+
+.EX3 div span:nth-child(6n + 4),
+.EX3 div span:nth-child(6n + 5),
+.EX3 div span:nth-child(6n + 6) {
+    background-color: green;
+}
+
+/* -----EX4  */
+.EX4 span{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+    border: 2px black solid;
+}
+
+/* -----Select  Only the Fifth Element */
+/* .EX4 span:nth-child(5){
+    background-color: orange;
+} */
+
+/* -----Select All But The First Five */
+/* span:nth-child(n + 6){
+    background-color: orange;
+} */
+
+/* -----Select Only The First Five */
+/* .EX4 span:nth-child(-n + 5){
+    background-color: orange;
+} */
+
+/* -----Select Every Fourth, Starting At The First */
+.EX4 span:nth-child(4n + 5){
+    background-color: orange;
+}
+
+/* -----Select The Last 5 elements */
+/* .EX4 span:nth-child(n + 7){
+    background-color: orange;
+} */
+
+/* -----Select the Second to Last Element */
+/* .EX4 span:nth-last-child(3){
+    background-color: orange;
+} */
+
+.extraQuestion span{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(186, 202, 218);
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+
+
+.num1:hover ~ span:nth-child(1n) {
+    color: yellow;
+}
+.num2:hover ~ span:nth-child(odd) {
+    color: yellow;
+}
+.num4:hover ~ span:nth-child(4n + 5) {
+    color: yellow;
+}
+
+.num3:hover ~ span:nth-child(even){
+    color: yellow;
+}
+.num5:hover ~ span:nth-child(5n + 6) {
+    color: yellow;
+}
+.num6:hover ~ span:nth-child(6n + 7) {
+    color: yellow;
+}
+.num7:hover ~ span:nth-child(7n + 8) {
+    color: yellow;
+}
+.num8:hover ~ span:nth-child(8n + 9) {
+    color: yellow;
+}
+.num9:hover ~ span:nth-child(9n + 10) {
+    color: yellow;
+}
+.num10:hover ~ span:nth-child(10n + 11) {
+    color: yellow;
+}
+
