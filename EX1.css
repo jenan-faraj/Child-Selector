@@ -111,11 +111,10 @@
 .num2:hover ~ span:nth-child(odd) {
     color: yellow;
 }
-.num4:hover ~ span:nth-child(4n + 5) {
+.num3:hover ~ span:nth-child(3n + 4){
     color: yellow;
 }
-
-.num3:hover ~ span:nth-child(even){
+.num4:hover ~ span:nth-child(4n + 5) {
     color: yellow;
 }
 .num5:hover ~ span:nth-child(5n + 6) {
