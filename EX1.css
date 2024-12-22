@@ -135,4 +135,3 @@
 .num10:hover ~ span:nth-child(10n + 11) {
     color: yellow;
 }
-
